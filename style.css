@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+.header {
+    padding: 1rem;
+    background: lightgreen;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul1 {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 18px;
+}
+
+.container {
+    display: flex;
+    margin: 5px;
+    gap: 1rem;
+}
+
+.aside1 {
+    border: 1px solid;
+    height: 95vh;
+    flex-basis: 25%;
+}
+
+.main1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: .8rem;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.section {
+    display: flex;
+}
+
+button { 
+    width: 75px;
+    height: 61px;
+    align-items: center;
+    line-height: 0;
+}
+
+.footer {
+    background: lime;
+    color: black;
+    height: 50px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+text-transform: capitalize;
+}
